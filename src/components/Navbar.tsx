@@ -19,7 +19,7 @@ const Navbar:React.FC = () => {
     <HiOutlineMenuAlt3 className="w-16 h-8 lg:hidden" onClick={toggleNav}/>
     </section>
       <div className={`${nav ? "block" : "hidden"} py-4 lg:py-0 h-96 lg:h-0 justify-between lg:justify-between flex-col top-20 lg:top-0 lg:flex-row lg:static absolute items-center w-full lg:w-9/12 lg:flex`}>
-      <ul className="lg:pl-10 flex justify-center pb-6 lg:pb-0">
+      <ul className="lg:pl-10 flex justify-center pb-9 lg:pb-0">
         <li className="border-b-2 pb-1 border-b-gray-500">Catalog</li>
       </ul>
       <div className="flex lg:justify-between lg:h-0 h-36">
@@ -31,9 +31,9 @@ const Navbar:React.FC = () => {
       </div>
       <div>
         <ul className="flex justify-between h-36 lg:h-0 lg:w-32 lg:pt-0 pt-8 l:gpl-10 items-center flex-col lg:flex-row">
-          <MdFavoriteBorder />
+          <MdFavoriteBorder className="text-xl hidden lg:block" />
           <Button text="Login" />
-          <GiShoppingCart />
+          <GiShoppingCart className="text-2xl hidden lg:block"/>
         </ul>
       </div>
       </div>
