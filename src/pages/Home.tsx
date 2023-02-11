@@ -1,6 +1,9 @@
+import Header from "../elements/Header";
+
 const Home = () => {
   return (
-    <section>
+    <section className="border-2">
+      <Header/>
     </section>
   );
 };
