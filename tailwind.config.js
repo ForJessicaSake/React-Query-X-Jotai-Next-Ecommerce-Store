@@ -6,18 +6,20 @@ module.exports = {
   theme: {
     extend: {
       fontSize:{
-        header: "32rem",
-        headermd: "13rem"
+        header: "25rem",
+        headersm: "9rem",        
+        headermd: "20rem",
       },
       height:{
         nav: "35rem",
-        img: "70rem"
+        img: "50rem"
       },
       width:{
         img: "50rem"
       },
       colors:{
-        Blue: "#5c89a3"
+        Blue: "#5c89a3",
+        Text: "#b7acaa",
       }
     },
   },
