@@ -1,5 +1,5 @@
 import { useAtom } from "jotai/react";
-import {navigation} from "../atoms/atoms"
+import {navigation, cart} from "../atoms/atoms"
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { GiShoppingCart } from "react-icons/gi";
 import { MdFavoriteBorder } from "react-icons/md";
@@ -8,6 +8,7 @@ import Button from "../custom/Botton";
 const Navbar:React.FC = () => {
 
     const [nav, setNav] = useAtom(navigation)
+    const [cartValue, setCartValue] = useAtom(cart)
     const toggleNav =()=>{
         setNav(!nav)
     }
@@ -30,10 +31,12 @@ const Navbar:React.FC = () => {
         </ul>
       </div>
       <div>
-        <ul className="flex justify-between h-36 lg:h-0 lg:w-32 lg:pt-0 pt-8 l:gpl-10 items-center flex-col lg:flex-row">
-          <MdFavoriteBorder className="text-xl hidden lg:block" />
+        <ul className="flex justify-between item-center h-36 lg:h-0 lg:w-32 lg:pt-0 pt-8 l:gpl-10 items-center flex-col lg:flex-row">
+          <MdFavoriteBorder className="text-xl" />
           <Button text="Login" />
-          <GiShoppingCart className="text-2xl hidden lg:block"/>
+          <div className="flex items-center">
+          <GiShoppingCart className="text-2xl"/><p className="relative">({cartValue})</p>
+          </div>
         </ul>
       </div>
       </div>
