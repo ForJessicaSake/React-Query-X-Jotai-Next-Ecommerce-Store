@@ -5,7 +5,7 @@ import { GiShoppingCart } from "react-icons/gi";
 import { MdFavoriteBorder } from "react-icons/md";
 import Button from "../custom/Botton";
 
-const Navbar = () => {
+const Navbar:React.FC = () => {
 
     const [nav, setNav] = useAtom(navigation)
     const toggleNav =()=>{
