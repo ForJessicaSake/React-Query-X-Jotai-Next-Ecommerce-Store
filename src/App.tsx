@@ -1,8 +1,20 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 const App:React.FC=()=> {
+
   return (
-    <section className="App">
-    <p>This is just me setting up the project</p>
-    </section>
+    <>
+    <Navbar/>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+    </Router>
+    <Footer/>
+    </>
   );
 }
 
