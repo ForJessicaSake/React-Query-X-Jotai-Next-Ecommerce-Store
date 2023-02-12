@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="flex justify-between items-center lg:px-16  h-20 text-sm cursor-pointer">
+    <nav className="flex justify-between items-center lg:px-16 h-20 text-base lg:text-sm cursor-pointer">
       <section className="flex justify-between lg:w-28 w-full"> 
         <figure className="w-28 flex justify-between items-center">
         <img src={Logo} alt="Logo" className="lg:w-5 lg:h-5 h-7 w-7 animate-bounce lg:ml-0 ml-4" />

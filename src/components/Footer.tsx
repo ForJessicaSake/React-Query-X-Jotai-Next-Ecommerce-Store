@@ -44,7 +44,7 @@ const Footer = () => {
         <h3 className="lg:block hidden">Contact</h3>
         <h6 className="flex items-center w-32 justify-between"><span><img src={Address} alt="" className="h-4 w-4"/></span>Binori Square</h6>
         <h6 className="flex items-center  w-48 justify-between"> <span><img src={Email} alt="" className="h-4 w-4"/></span>Iskon info@gmail.com</h6>
-        <h6 className="flex items-center w-36 justify-between"><span><img src={Contact} alt="" className="h-4 w-4"/></span>+91 9876543210</h6>
+        <h6 className="flex items-center lg:w-36 w-36 justify-between"><span><img src={Contact} alt="" className="h-4 w-4"/></span>+91 9876543210</h6>
       </hgroup>
       <hgroup className="flex flex-col lg:mt-0 mt-8 h-20 lg:items-center justify-between">
         <h2>Download App</h2>
