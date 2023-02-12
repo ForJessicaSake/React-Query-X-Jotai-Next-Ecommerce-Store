@@ -4,7 +4,7 @@ type Props = {
 
 const Button = ({ text }: Props) => {
   return (
-  <button className="bg-btn text-white font-light w-28 h-10 text-sm rounded-md items-center flex justify-center">{text}</button>
+  <button className="bg-btn text-white font-light w-32 h-10 text-sm rounded-md items-center flex justify-center">{text}</button>
   )
 };
 
