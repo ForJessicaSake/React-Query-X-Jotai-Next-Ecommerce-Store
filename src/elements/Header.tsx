@@ -7,9 +7,9 @@ const Header:React.FC=()=> {
     <header className="flex flex-col lg:flex-row justify-between pb-40 lg:pl-16 px-6 lg:px-0 pt-10 bg-Header">
     <figcaption className="">
     <h1 className="text-2xl font-bold w-96 lg:pt-10 pt-0">Awesome Design Best Furniture For Your Home</h1>
-      <p className="text-sm font-light py-4">Browse, Choose & Order, Very Simple</p>
+      <p className="text-sm font-light py-5">Browse, Choose & Order, Very Simple</p>
       <Button text="Shop Now"/>
-      <section className="flex justify-between lg:pt-28 pt-16">
+      <section className="flex justify-between lg:pt-28 pt-16 cursor-pointer">
         <div className="flex flex-col w-28 pb-4">
             <h1 className="text-2xl font-semibold">1000+</h1>
             <p className="text-sm font-light">Furnitures & Equipments</p>
