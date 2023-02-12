@@ -48,7 +48,7 @@ const Collections = () => {
         <h1 className="animate-bounce hover:border-b-2 border-Blue">
           Shoes <span className="text-sm">250</span>
         </h1>
-        <h1 className="lg:ml-0 ml-20 lg:mt-0 mt-10 hover:border-b-2 border-Blue">
+        <h1 className="lg:ml-0 ml-14 lg:mt-0 mt-10 hover:border-b-2 border-Blue">
           Accessories <span className="text-sm">120</span>
         </h1>
       </div>
