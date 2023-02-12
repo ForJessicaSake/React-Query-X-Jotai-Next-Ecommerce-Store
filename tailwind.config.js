@@ -20,7 +20,7 @@ module.exports = {
         collectionB: "47rem"
       },
       colors:{
-        Blue: "#5c89a3",
+        Brown: "#b08e49",
         Text: "#b7acaa",
         Collections: "#1f1f1f",
       }
