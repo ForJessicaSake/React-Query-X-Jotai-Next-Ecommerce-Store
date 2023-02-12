@@ -2,10 +2,10 @@ import { useAtom } from "jotai/react"
 import { Link } from "react-router-dom"
 import {HiOutlineMenuAlt3} from 'react-icons/hi'
 import { navigation, cart } from "../atoms/atoms"
-import Logo from "../assets/Logo.svg"
-import Cart from "../assets/Cart.svg"
-import Profile from "../assets/Profile.svg"
-import Search from "../assets/Search.svg"
+import Logo from "../assets/Images/Logo.svg"
+import Cart from "../assets/Images/Cart.svg"
+import Profile from "../assets/Images/Profile.svg"
+import Search from "../assets/Images/Search.svg"
 
 const Navbar: React.FC = () => {
 
