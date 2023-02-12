@@ -14,7 +14,7 @@ const Collection = () => {
         </figure>
       </section>
       <section className="flex lg:mt-0 mt-10">
-      <figcaption className="lg:h-64 h-56  pl-6 bg-Collection flex flex-col justify-center ">
+      <figcaption className="lg:h-64 h-56 w-48 pl-6 bg-Collection flex flex-col justify-center ">
       <h4 className="text-lg font-bold pb-6">30% off</h4>
       <h1 className="text-xl font-bold">Sofa Collection</h1>
         </figcaption>
