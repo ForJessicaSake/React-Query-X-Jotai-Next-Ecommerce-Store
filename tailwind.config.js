@@ -21,8 +21,8 @@ module.exports = {
       },
       colors:{
         Brown: "#b08e49",
-        Text: "#b7acaa",
-        Collections: "#1f1f1f",
+        Header: "#f5f5f5",
+        btn: "#292929",
       }
     },
   },
