@@ -23,6 +23,7 @@ module.exports = {
         Brown: "#b08e49",
         Header: "#f5f5f5",
         btn: "#292929",
+        Collection: "#dec9a0",
       }
     },
   },

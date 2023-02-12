@@ -19,9 +19,9 @@ const Navbar: React.FC = () => {
   return (
     <nav className="flex justify-between items-center lg:px-16 h-20 text-base lg:text-sm cursor-pointer">
       <section className="flex justify-between lg:w-28 w-full"> 
-        <figure className="w-28 flex justify-between items-center">
-        <img src={Logo} alt="Logo" className="lg:w-5 lg:h-5 h-7 w-7 animate-bounce lg:ml-0 ml-4" />
-        <h1 className="text-xl font-medium cursor-pointer lg:block hidden">Furniture</h1>
+        <figure className="lg:w-28 w-32 flex justify-between items-center">
+        <img src={Logo} alt="Logo" className="lg:w-5 lg:h-5 h-6 w-6 animate-bounce lg:ml-0 ml-4" />
+        <h1 className="text-xl font-medium cursor-pointer lg:block">Furniture</h1>
         </figure>
         <HiOutlineMenuAlt3 className="w-16 h-8 lg:hidden" onClick={toggleNav} />
       </section>
