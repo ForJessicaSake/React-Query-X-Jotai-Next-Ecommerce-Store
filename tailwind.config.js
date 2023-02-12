@@ -15,11 +15,14 @@ module.exports = {
         img: "50rem"
       },
       width:{
-        img: "50rem"
+        img: "50rem",
+        collection: "45rem",
+        collectionB: "47rem"
       },
       colors:{
         Blue: "#5c89a3",
         Text: "#b7acaa",
+        Collections: "#1f1f1f",
       }
     },
   },

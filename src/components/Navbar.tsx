@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
       >
         <ul className="lg:pl-10 flex justify-center items-center pb-16 lg:pb-0">
           <Link to="/catalog">
-            <li className="border-b-2 pb-1 border-b-gray-500">Catalog</li>
+            <li className="">Catalog</li>
           </Link>
         </ul>
         <div className="flex lg:flex-row flex-col justify-between lg:justify-between lg:h-0 h-96 cursor-pointer">
