@@ -1,3 +1,4 @@
+import Store from "../components/Store";
 import Blog from "../elements/Blog";
 import Collection from "../elements/Collection";
 import Header from "../elements/Header";
@@ -9,6 +10,7 @@ const Home = () => {
     <section className="overflow-x-hidden">
       <Header/>
       <Info/>
+      <Store/>
       <Collection/>
       <Blog/>
       <Subscribe/>
