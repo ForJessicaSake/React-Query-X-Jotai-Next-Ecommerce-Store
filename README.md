@@ -1,4 +1,4 @@
-## Furniture Ecommerce Store
+## Next Ecommerce Store
 The Furniture Ecommerce store is still in progress....
 
 ## About project
