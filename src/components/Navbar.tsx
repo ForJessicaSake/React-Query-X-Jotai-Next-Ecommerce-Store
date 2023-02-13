@@ -1,5 +1,4 @@
 import { useAtom } from "jotai/react"
-import { Link } from "react-router-dom"
 import {HiOutlineMenuAlt3} from 'react-icons/hi'
 import { navigation, cart } from "../atoms/atoms"
 import Logo from "../assets/Images/Logo.svg"
