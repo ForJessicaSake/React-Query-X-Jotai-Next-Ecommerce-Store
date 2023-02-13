@@ -42,7 +42,7 @@ const Store = () => {
   console.log(data);
 
   return (
-    <section className="text-center py-12 text-2xl font-bold">
+    <section className="text-center py-20 text-2xl font-bold">
       <h1>Top Picked For You</h1>
       <section>
         {status === "error" && <p>Error in fetching data</p>}

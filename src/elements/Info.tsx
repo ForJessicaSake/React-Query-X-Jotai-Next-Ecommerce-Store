@@ -7,7 +7,7 @@ const Info:React.FC=()=>{
             <h1 className="text-xl font-semibold pb-2">Fast Delivery</h1>
             <p className="text-sm font-light">Next offers you fast delivery to any place in the world.</p>
         </div>
-        <div className="lg:flex flex-col w-96 px-20 pb-4 lg:border-r-2 lg:border-l-2 border-Header pt-8">
+        <div className="lg:flex flex-col w-96 px-16 pb-4 lg:border-r-2 lg:border-l-2 border-Header pt-8">
         <h1 className="text-xl font-semibold pb-2">Free Returns</h1>
             <p className="text-sm font-light">On every shopping you make on our website you get free returns.</p>
         </div>

@@ -23,4 +23,4 @@ Here are some of the links you should look out for to make navigation on the sit
 - Favorite
 
 ## Product
-Product display: [Production Website Link](https://furniture-ecommerce-store.vercel.app/)
+Product display: [Production Website Link](https://next-ecommerce-stores.vercel.app/)
