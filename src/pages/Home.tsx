@@ -11,8 +11,8 @@ const Home = () => {
       <Header/>
       <Info/>
       <Store/>
-      <Collection/>
-      <Blog/>
+      {/* <Collection/>
+      <Blog/> */}
       <Subscribe/>
     </section>
   );

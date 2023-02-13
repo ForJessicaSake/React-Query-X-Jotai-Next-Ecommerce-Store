@@ -4,12 +4,11 @@ import Product from "../custom/Product";
 interface ProductType {
   id: number;
   name: string;
-  image: string;
+  image: any;
   // other properties
 }
 
 const Store = () => {
-
   const options = {
     method: 'GET',
     headers: {
@@ -18,10 +17,11 @@ const Store = () => {
     }
   };
   
-  const fetchProduct = async ()=>{
+  const fetchProduct = async () => {
     const res = await fetch('https://kohls.p.rapidapi.com/products/list?limit=24&offset=1&dimensionValueID=AgeAppropriate%3ATeens', options)
-    return res.json()
-  }
+
+    return res.json();
+  };
 
   // const options = {
   //   method: 'GET',
@@ -30,19 +30,17 @@ const Store = () => {
   //     'X-RapidAPI-Host': 'kohls.p.rapidapi.com'
   //   }
   // };
-  
+
   // const fetchProduct=()=>{
   //   fetch('https://kohls.p.rapidapi.com/products/list?limit=24&offset=1&dimensionValueID=AgeAppropriate%3ATeens', options)
   //   .then(response => response.json())
   //   .then(response => console.log(response))
   //   .catch(err => console.error(err));
   // }
- 
-
 
   const { data, status } = useQuery("products", fetchProduct);
-
   console.log(data);
+
   return (
     <section className="text-center py-12 text-2xl font-bold">
       <h1>Top Picked For You</h1>
@@ -51,9 +49,11 @@ const Store = () => {
         {status === "loading" && <p>Loading...</p>}
         {status === "success" && (
           <div>
-            {/* { data && data.results.map((product: ProductType) => (
-                      <Product key={product.name} product={product} />
-                  ))} */}
+            {data &&
+              data.results &&
+              data.results.map((product: ProductType) => (
+                <Product product={product}/>
+              ))}
           </div>
         )}
       </section>

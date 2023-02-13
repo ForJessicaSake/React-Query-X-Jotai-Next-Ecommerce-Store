@@ -9,7 +9,6 @@ interface ProductType {
     return(
       <section>
         <figure>
-          <img src={product.image} alt="product"/>
         </figure>
         <figcaption>
           <h3>{product.name}</h3>

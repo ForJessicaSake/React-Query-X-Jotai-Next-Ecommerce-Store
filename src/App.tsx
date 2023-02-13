@@ -9,6 +9,7 @@ const App:React.FC=()=> {
 
   const queryClient = new QueryClient()
   return (
+    <main className="font-font">
     <QueryClientProvider client={queryClient}>
     <Router>
     <Navbar/>
@@ -18,6 +19,7 @@ const App:React.FC=()=> {
     </Router>
     <Footer/>
     </QueryClientProvider>
+    </main>
   );
 }
 

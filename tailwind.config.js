@@ -16,15 +16,20 @@ module.exports = {
       },
       width:{
         img: "50rem",
+        header: "22rem",
         collection: "45rem",
-        collectionB: "47rem"
+        collectionB: "47rem",
       },
       colors:{
         Brown: "#b08e49",
-        Header: "#f5f5f5",
+        Header: "#6a6d80",
         btn: "#292929",
+        Text: "#dcdcdc",
         Collection: "#dec9a0",
-      }
+      },
+      fontFamily: {
+        font: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],
