@@ -2,8 +2,7 @@
 The Furniture Ecommerce store is still in progress....
 
 ## About project
-I wanted to do build something that'll enable me work with a ton of states cause I had just learnt how to use Jotai and React Query. In the process of exploring, I built this basic ecommerce store using React, TypeScript, Jotai, React Query, and Tailwind. It's a showcase of how these technologies can come together to create an awesome user experience. TypeScript keeps my code neat and tidy, Tailwind gives the project a cool look while, Jotai and React Query make state management a breeze.
-
+I had recently learned how to use Jotai and React Query. So, I decided to develop something basic that would allow me to work with a large number of states. During my exploration, I created this simple ecommerce store using React, TypeScript, Jotai, React Query, and Tailwind. It demonstrates how these technologies can be combined to create an amazing user experience. TypeScript keeps my code neat and tidy, Tailwind gives the project a cool look, while Jotai and React Query make state management a breeze.
 
 ## Technologies
 - React
@@ -22,9 +21,7 @@ Here are some of the links you should look out for to make navigation on the sit
 - Favorite
 
 ##  Lesson Learned :)
-
-React Query and Jotai is such a cool combination and just maybe I'd document my entire experience of this on my [hashnode](https://forjessicasake.hashnode.dev/)
-
+React Query and Jotai are such a cool combination that I'm thinking about documenting my entire experience on my [hashnode](https://forjessicasake.hashnode.dev/).
 
 ## Product
 Product display: [Production Website Link](https://next-ecommerce-stores.vercel.app/)
