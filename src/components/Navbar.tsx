@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
        <img src={Search} alt="search" className="w-4 h-4"/>
        <img src={Profile} alt="profile" className="w-4 h-4"/>
        <figure className="flex items-center">
-       <img src={Cart} alt="cart" className="h-5 w-5"/><span className="mr-8 w-2 h-2">{cartValue}</span>
+       <img src={Cart} alt="cart" className="h-5 w-5"/><span className="mr-8 w-2 h-2">{cartValue.length}</span>
        </figure>
         </figure>
       </div>

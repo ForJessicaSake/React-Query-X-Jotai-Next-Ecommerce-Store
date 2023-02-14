@@ -1,7 +1,7 @@
 import {atom} from "jotai"
 
 const navigation = atom<boolean>(false)
-const femalecollection = atom<boolean>(false)
-const cart = atom<number>(0)
+const store= atom<string>("women")
+const cart = atom<any>([])
 
-export {navigation, femalecollection, cart} 
+export {navigation, store, cart} 

@@ -12,14 +12,14 @@ const Footer = () => {
   return (
     <footer className=" lg:mt-0 mt-10 flex py-8 lg:flex-row flex-col justify-between lg:px-10 px-6 bg-btn text-Header h-full lg:items-center">
       <nav className="">
-        <figure className="lg:w-32 flex justify-between lg:items-center">
+        <figure className="lg:w-20 flex justify-between lg:items-center">
           <img
             src={Logo}
             alt="Logo"
             className="lg:w-5 lg:h-5 h-7 w-7 animate-bounce lg:ml-0 lg:block hidden"
           />
           <h1 className="text-2xl font-medium cursor-pointer lg:block pb-5">
-            Furniture
+            Next
           </h1>
         </figure>
         <p className="w-72 pb-6">
