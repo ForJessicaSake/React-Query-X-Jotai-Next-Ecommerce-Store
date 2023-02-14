@@ -32,11 +32,13 @@ const Navbar: React.FC = () => {
         } z-50 bg-btn lg:text-black text-white py-4 lg:py-0 h-nav lg:h-0 justify-between lg:justify-between flex-col top-20 lg:top-0 lg:flex-row lg:static absolute items-center w-full lg:w-9/12 lg:flex`}
       >
         <ul className="flex lg:flex-row flex-col items-center justify-between lg:w-96 w-full lg:h-0 h-full py-6">
-        <Link to="/"><li className=" hover:border-b-2 hover:border-Brown">Home</li></Link>
+        <Link to="/"><li className=" hover:border-b-2 hover:border-Brown" onClick={toggleNav}>Home</li></Link>
         <li className=" hover:border-b-2 hover:border-Brown">Shop</li>
         <li className=" hover:border-b-2 hover:border-Brown">About Us</li>
         <li className=" hover:border-b-2 hover:border-Brown">Blog</li>
-        <li className=" hover:border-b-2 hover:border-Brown">Contact Us</li>
+        <li className=" hover:border-b-2 hover:border-Brown lg:block hidden">Contact Us</li>
+        <Link to="/cart" onClick={toggleNav} className="lg:hidden block"> <li className=" hover:border-b-2 hover:border-Brown">Cart</li></Link>
+
         </ul>
         <figure className="lg:flex hidden justify-between item-center h-52 lg:h-0 lg:w-44 lg:pt-0 pt-11 lg:pl-10 items-center flex-col lg:flex-row">
        <img src={Search} alt="search" className="w-4 h-4"/>

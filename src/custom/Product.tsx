@@ -28,10 +28,10 @@ const Product = ({ product }: { product: ProductType }) => {
   return (
     <section className="flex flex-col items-center justify-center px-4 w-64 h-72 py-10">
       <figure className="pb-5 w-32 flex justify-between items-center">
-        <img src={product.image} alt="product" className="h-32 w-32" />
+        <img src={product.image} alt="product" className="lg:h-32 lg:w-32 md:h-32 md:w-32 w-24 h-24" />
       </figure>
       <figcaption className="flex flex-col items-center">
-        <h4 className="text-xs h-14 w-40 lg:w-64 font-light">{product.title}</h4>
+        <h4 className="text-xs h-16 w-40 lg:w-64 font-light">{product.title}</h4>
         <p className="text-sm font-medium pb-2">${product.price}</p>
         {cartValue.filter((crt: ProductType) => crt.id === product.id).length === 0 ? (
           <section onClick={() => addToCart(product)}>

@@ -20,7 +20,7 @@ function Cart() {
   };
 
   return (
-    <main className="px-16  py-20">
+    <main className="px-16 py-6 lg:py-16">
       {cartValue &&
         cartValue.map((cartItems: any) => (
           <section
@@ -34,7 +34,7 @@ function Cart() {
                 className="w-24 h-24 mb-6 mt-10"
               />
               <figcaption className="cart-content">
-                <h4 className="text-sm h-14 w-40 lg:w-72 font-light">
+                <h4 className="lg:text-sm text-xs h-14 w-52 lg:w-72 font-light">
                   {cartItems.title}
                 </h4>
                 <p className="text-xs font-medium pb-4">${cartItems.price}</p>
@@ -53,7 +53,7 @@ function Cart() {
           </section>
         ))}
       <section className="pt-16">
-        <p className="text-sm pt-4">Shopping Fee: $10</p>
+        <p className="text-sm">Shopping Fee: $10</p>
         <h3 className="texr-base py-4">
           Total: $
           {cartValue.reduce((total: number, cart: any) => {

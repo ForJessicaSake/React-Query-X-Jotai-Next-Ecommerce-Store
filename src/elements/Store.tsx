@@ -12,7 +12,7 @@ const Store = () => {
     <section className="text-center py-10 text-2xl font-bold">
       <h1>Top Picked For You</h1>
       <nav className="pt-12">
-        <ul className="flex justify-between lg:w-nav w-96 px-10 lg:px-0 text-sm font-medium lg:pl-24 cursor-pointer">
+        <ul className="flex justify-between lg:w-nav w-96 md:px-16 px-12 lg:px-0 text-sm font-medium lg:pl-24  cursor-pointer">
           <li
             className=" hover:border-b-2 hover:border-Brown"
             onClick={() => setStoreContent("women")}

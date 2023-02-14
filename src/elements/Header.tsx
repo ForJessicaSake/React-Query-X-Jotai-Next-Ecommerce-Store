@@ -4,9 +4,9 @@ import header from "../assets/Images/drop.png"
 
 const Header:React.FC=()=> {
   return (
-    <header className="flex flex-col items-center lg:flex-row justify-between w-full lg:pb-28 pb-6 px-6 lg:px-16 pt-0">
+    <header className="flex flex-col lg:items-center lg:flex-row justify-between w-full lg:pb-28 pb-6 px-6 lg:px-16 pt-0">
     <figcaption className="">
-    <h1 className="lg:text-3xl w-72 lg:leading-tight leading-8 text-2xl lg:pt-20 lg:w-header pt-10 font-bold">Buy, sell, wear, trend. You can have it all in your wardrope</h1>
+    <h1 className="lg:text-3xl md:text-3xl md:w-96 w-72 lg:leading-tight leading-8 text-2xl lg:pt-20 lg:w-header pt-10 font-bold">Buy, sell, wear, trend. You can have it all in your wardrope</h1>
       <p className="text-sm font-light py-5">Browse, Choose & Order, Very Simple</p>
       <Button text="Shop Now"/>
       <section className="flex justify-between lg:pt-32 pt-20 cursor-pointer ">
@@ -24,7 +24,7 @@ const Header:React.FC=()=> {
         </div>
       </section>
     </figcaption>
-    <figure>
+    <figure className="md:flex md:items-center md:justify-center">
         <img src ={header} alt="living room furniture" className="lg:full w-96  lg:pt-0 pt-0"/>
     </figure>
     </header>
