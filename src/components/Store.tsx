@@ -23,7 +23,7 @@ const Store = () => {
     <section className="text-center py-10 text-2xl font-bold">
       <h1>Top Picked For You</h1>
       <nav className="pt-12">
-        <ul className="flex justify-between w-nav text-sm font-medium pl-24 cursor-pointer">
+        <ul className="flex justify-between lg:w-nav w-96 px-10 lg:px-0 text-sm font-medium lg:pl-24 cursor-pointer">
           <li className=" hover:border-b-2 hover:border-Brown">Women</li>
           <li className=" hover:border-b-2 hover:border-Brown">Men</li>
           <li className=" hover:border-b-2 hover:border-Brown">Jewelries</li>
@@ -34,7 +34,7 @@ const Store = () => {
         {status === "error" && <p>Error in fetching data</p>}
         {status === "loading" && <p>Loading...</p>}
         {status === "success" && (
-          <div className="grid lg:grid-cols-3 grid-cols-2 place-items-center gap-5 pt-16 ">
+          <div className="grid lg:grid-cols-3 grid-cols-2 place-items-center gap-5 pt-10 lg:pt-16 ">
             {data &&
               data.map((product: ProductType) => (
                 <section className="">
