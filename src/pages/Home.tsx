@@ -1,6 +1,4 @@
-import Store from "../components/Store";
-import Blog from "../elements/Blog";
-import Collection from "../elements/Collection";
+import Store from "../elements/Store";
 import Header from "../elements/Header";
 import Info from "../elements/Info";
 import Subscribe from "../elements/Subscribe";
