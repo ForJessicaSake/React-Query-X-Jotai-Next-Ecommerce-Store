@@ -14,7 +14,7 @@ const Header:React.FC=()=> {
             <h1 className="text-2xl font-semibold">1000+</h1>
             <p className="text-sm font-light">Clothing & Accessories</p>
         </div>
-        <div className="flex flex-col w-28 pb-4">
+        <div className="flex flex-col w-28 pb-4 animate-pulse">
         <h1 className="text-2xl font-semibold">130+</h1>
             <p className="text-sm font-light">Fresh Clothing Design</p>
         </div>

@@ -17,6 +17,7 @@ module.exports = {
       width:{
         img: "50rem",
         header: "22rem",
+        nav: "28rem",
         collection: "45rem",
         collectionB: "47rem",
       },
