@@ -1,5 +1,5 @@
 ## Next Ecommerce Store
-The Furniture Ecommerce store is still in progress....
+The Ecommerce store is still in progress....
 
 ## About project
 I had recently learned how to use Jotai and React Query. So, I decided to develop something basic that would allow me to work with a large number of states. During my exploration, I created this simple ecommerce store using React, TypeScript, Jotai, React Query, and Tailwind. It demonstrates how these technologies can be combined to create an amazing user experience. TypeScript keeps my code neat and tidy, Tailwind gives the project a cool look, while Jotai and React Query make state management a breeze.
