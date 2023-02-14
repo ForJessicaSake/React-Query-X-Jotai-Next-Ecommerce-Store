@@ -27,8 +27,9 @@ const Store = () => {
         </ul>
       </nav>
       <section className="">
-        {status === "error" && <p>Error in fetching data</p>}
-        {status === "loading" && <p>Loading...</p>}
+        {status === "error" && <p className="text-sm font-light text-center">Error in fetching data</p>}
+        {status === "loading" && 
+        <p className="text-sm font-light text-center">...</p>}
         {status === "success" && (
           <div className="grid lg:grid-cols-3 grid-cols-2 place-items-center gap-5 pt-10 lg:pt-16 ">
             {data &&
