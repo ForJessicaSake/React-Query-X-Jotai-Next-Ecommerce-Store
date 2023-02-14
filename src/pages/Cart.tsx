@@ -22,7 +22,7 @@ function Cart() {
   return (
     <main className="px-16 py-6 lg:py-16">
       {cartValue &&
-        cartValue.map((cartItems: any) => (
+        cartValue.map((cartItems: ProductType) => (
           <section
             key={cartItems.id}
             className="flex justify-between w-full items-center border-b-2"
