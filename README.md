@@ -21,7 +21,7 @@ Here are some of the links you should look out for to make navigation on the sit
 - Favorite
 
 ##  Lesson Learned :)
-React Query and Jotai are such a cool combination that I'm thinking about documenting my entire experience on my [hashnode](https://forjessicasake.hashnode.dev/).
+React Query and Jotai are such a cool combination that I'm thinking about documenting my entire experience on my [hashnode blog](https://forjessicasake.hashnode.dev/).
 
 ## Product
 Product display: [Production Website Link](https://next-ecommerce-stores.vercel.app/)
