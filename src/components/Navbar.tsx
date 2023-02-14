@@ -5,6 +5,7 @@ import Logo from "../assets/Images/Logo.svg"
 import Cart from "../assets/Images/Cart.svg"
 import Profile from "../assets/Images/Profile.svg"
 import Search from "../assets/Images/Search.svg"
+import { Link } from "react-router-dom"
 
 const Navbar: React.FC = () => {
 
@@ -31,7 +32,7 @@ const Navbar: React.FC = () => {
         } z-50 bg-btn lg:text-black text-white py-4 lg:py-0 h-nav lg:h-0 justify-between lg:justify-between flex-col top-20 lg:top-0 lg:flex-row lg:static absolute items-center w-full lg:w-9/12 lg:flex`}
       >
         <ul className="flex lg:flex-row flex-col items-center justify-between lg:w-96 w-full lg:h-0 h-full py-6">
-        <li className=" hover:border-b-2 hover:border-Brown">Home</li>
+        <Link to="/"><li className=" hover:border-b-2 hover:border-Brown">Home</li></Link>
         <li className=" hover:border-b-2 hover:border-Brown">Shop</li>
         <li className=" hover:border-b-2 hover:border-Brown">About Us</li>
         <li className=" hover:border-b-2 hover:border-Brown">Blog</li>
@@ -41,7 +42,7 @@ const Navbar: React.FC = () => {
        <img src={Search} alt="search" className="w-4 h-4"/>
        <img src={Profile} alt="profile" className="w-4 h-4"/>
        <figure className="flex items-center">
-       <img src={Cart} alt="cart" className="h-5 w-5"/><span className="mr-8 w-2 h-2">{cartValue.length}</span>
+       <Link to="/cart" className="flex"><img src={Cart} alt="cart" className="h-5 w-5"/><span className="mr-8 w-2 h-2">{cartValue.length}</span></Link>
        </figure>
         </figure>
       </div>
