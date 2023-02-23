@@ -1,5 +1,5 @@
 import Button from "../custom/Botton";
-import advert from "../assets/Images/basic.png"
+import advert from "../assets/Images/basic.png";
 
 
 const Subscribe: React.FC = () => {
