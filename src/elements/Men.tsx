@@ -12,9 +12,10 @@ interface ProductType {
 
 function Men() {
   const { data, status } = Usefetch({
-    url: process.env.REACT_APP_API_KEY,
+    url: "https://fakestoreapi.com/products/category/men's clothing",
   });
   
+
   return (
     <section>
       {status === "error" && (
