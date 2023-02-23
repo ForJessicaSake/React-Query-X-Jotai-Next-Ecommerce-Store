@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 type Url = {
-    url:string;
+    url:any;
 }
 function Usefetch(url:Url) {
     const fetchProduct = async () => {

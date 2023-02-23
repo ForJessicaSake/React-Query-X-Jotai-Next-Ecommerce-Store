@@ -12,7 +12,7 @@ interface ProductType {
 
 function Men() {
   const { data, status } = Usefetch({
-    url: "https://fakestoreapi.com/products/category/men's clothing",
+    url: process.env.REACT_APP_API_KEY,
   });
   
   return (
