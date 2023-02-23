@@ -6,8 +6,7 @@ import Jewelry from "./Jewelries";
 
 
 const Store = () => {
-  const [storeContent, setStoreContent] = useAtom(store);
-
+  const [storeContent, setStoreContent] = useAtom(store)
   return (
     <section className="text-center py-10 text-2xl font-bold">
       <h1>Top Picked For You</h1>
